@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_item_search"
+        android:title="@string/menu_item_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="always"
+        android:orderInCategory="1" />
+    <item android:id="@+id/menu_item_share"
+        android:title="@string/menu_item_share"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/menu_item_load"
+        android:title="@string/load_saved_crimes"
+        android:orderInCategory="4"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menu_item_subtitle"
+        android:title="@string/show_subtitle"
+        android:orderInCategory="3"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menu_item_settings"
+        android:title="@string/menu_item_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+</menu>

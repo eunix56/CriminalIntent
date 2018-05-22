@@ -1,0 +1,19 @@
+<android.support.v7.widget.AlertDialogLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/choice_dialog"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    tools:context="com.example.eunice.criminalintent.ChoiceFragment">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_date_time"
+        android:textColor="#57a"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textStyle="italic"/>
+
+</android.support.v7.widget.AlertDialogLayout>

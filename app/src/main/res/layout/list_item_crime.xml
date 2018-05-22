@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_enabled">
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/crime_list_item_solvedCheckBox"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:enabled="false"
+        android:focusable="false"/>
+        <!--android:padding="4dp"/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/crime_list_item_titleTextView"
+        android:layout_toLeftOf="@+id/crime_list_item_solvedCheckBox"
+        android:layout_toStartOf="@id/crime_list_item_solvedCheckBox"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="@string/crime_title"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/crime_list_item_titleTextView">
+
+        <TextView
+            android:id="@+id/crime_list_item_dateTextView"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="4dp"
+            android:text="@string/crime_date" />
+
+        <TextView
+            android:id="@+id/crime_list_item_timeTextView"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="4dp"
+            android:text="@string/crime_time" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">CriminalIntent</string>
+
+
+    <string name="crime_title_hint">Enter a title for this crime</string>
+    <string name="crime_title_label">Title</string>
+    <string name="crime_details_label">Details</string>
+    <string name="crime_solved_label">Solved?</string>
+    <string name="crimes_title">Crimes</string>
+    <string name="crime_title">Crime title</string>
+    <string name="crime_date">Crime date</string>
+    <string name="date_picker_title">Date of crime</string>
+    <string name="time_picker_title">Time of crime</string>
+    <string name="choice_picker_title">Date or Time?</string>
+    <string name="choice_picker_date">Set Date</string>
+    <string name="choice_picker_time">Set Time</string>
+    <string name="new_crime">New Crime</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle">If you see something, say something</string>
+    <string name="delete_crime">Delete</string>
+
+    <string name="pick_a_choice">Pick a choice, set date or time or cancel if you clicked this mistakenly</string>
+    <string name="set_date_time">Set the date the crime was dne and set the approximate time it was done, and cancel this dialog if it was picked mistakenly.... Thanks and Goodluck on solving this crime</string>
+    <string name="menu_item_search">Search</string>
+    <string name="menu_item_settings">Settings</string>
+    <string name="menu_item_share">Share</string>
+    <string name="fragment_share_crime">Share Crime</string>
+    <string name="empty_view_text">There are no crimes.
+        Please click on the floating button to create a new crime</string>
+    <string name="menu_item_save">Save</string>
+    <string name="load_saved_crimes">Load saved crimes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="date_of_crime">Date of Crime: </string>
+    <string name="time_of_crime"> Time of Crime: </string>
+    <string name="set_date">Set Date</string>
+    <string name="set_time">Set Time</string>
+    <string name="crime_time">Crime Time</string>
+    <string name="take">Take!</string>
+</resources>
